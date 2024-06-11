@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1882174218\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://exotel.uat.netrum-tech.com/api/v1)">testPostpassword(https://exotel.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://gentera.uat.netrum-tech.com/api/v1)">testPostpassword(https://gentera.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://riopaila.uat.netrum-tech.com/api/v1)">testPostpassword(https://riopaila.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://coltefinanciera.uat.netrum-tech.com/api/v1)">testPostpassword(https://coltefinanciera.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://gecelca.uat.netrum-tech.com/api/n1)">testPostpassword(https://gecelca.uat.netrum-tech.com/api/n1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://netrum.uat.netrum-tech.com/api/v1)">testPostpassword(https://netrum.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://minicivil.uat.netrum-tech.com/api/v1)">testPostpassword(https://minicivil.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://segurosbolivar.uat.netrum-tech.com/api/v1)">testPostpassword(https://segurosbolivar.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://fanalca.uat.netrum-tech.com/api/v1)">testPostpassword(https://fanalca.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://finesa.uat.netrum-tech.com/api/v1)">testPostpassword(https://finesa.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://outsourcingbpo.uat.netrum-tech.com/api/v1)">testPostpassword(https://outsourcingbpo.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://bancounion.uat.netrum-tech.com/api/v1)">testPostpassword(https://bancounion.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://bnpparibas.uat.netrum-tech.com/api/v1)">testPostpassword(https://bnpparibas.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://etek.uat.netrum-tech.com/api/v1)">testPostpassword(https://etek.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://rockman.uat.netrum-tech.com/api/v1)">testPostpassword(https://rockman.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://coasmedas.uat.netrum-tech.com/api/v1)">testPostpassword(https://coasmedas.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://tessolve.uat.netrum-tech.com/api/v1)">testPostpassword(https://tessolve.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testPostpassword(https://eteklab.uat.netrum-tech.com/api/v1)">testPostpassword(https://eteklab.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://fanalca.uat.netrum-tech.com/api/v1)">testresetpassword(https://fanalca.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://etek.uat.netrum-tech.com/api/v1)">testresetpassword(https://etek.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://coasmedas.uat.netrum-tech.com/api/v1)">testresetpassword(https://coasmedas.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://bancounion.uat.netrum-tech.com/api/v1)">testresetpassword(https://bancounion.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://coltefinanciera.uat.netrum-tech.com/api/v1)">testresetpassword(https://coltefinanciera.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://eteklab.uat.netrum-tech.com/api/v1)">testresetpassword(https://eteklab.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://netrum.uat.netrum-tech.com/api/v1)">testresetpassword(https://netrum.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://minicivil.uat.netrum-tech.com/api/v1)">testresetpassword(https://minicivil.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://segurosbolivar.uat.netrum-tech.com/api/v1)">testresetpassword(https://segurosbolivar.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://exotel.uat.netrum-tech.com/api/v1)">testresetpassword(https://exotel.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://bnpparibas.uat.netrum-tech.com/api/v1)">testresetpassword(https://bnpparibas.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://rockman.uat.netrum-tech.com/api/v1)">testresetpassword(https://rockman.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://gentera.uat.netrum-tech.com/api/v1)">testresetpassword(https://gentera.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://gecelca.uat.netrum-tech.com/api/n1)">testresetpassword(https://gecelca.uat.netrum-tech.com/api/n1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://outsourcingbpo.uat.netrum-tech.com/api/v1)">testresetpassword(https://outsourcingbpo.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://finesa.uat.netrum-tech.com/api/v1)">testresetpassword(https://finesa.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://tessolve.uat.netrum-tech.com/api/v1)">testresetpassword(https://tessolve.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api.test.UserTests3" class="method navigator-link" hash-for-method="testresetpassword(https://riopaila.uat.netrum-tech.com/api/v1)">testresetpassword(https://riopaila.uat.netrum-tech.com/api/v1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.UserTests3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://exotel.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://exotel.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://exotel.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://gentera.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://gentera.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://gentera.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://riopaila.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://riopaila.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://riopaila.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://coltefinanciera.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://coltefinanciera.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://coltefinanciera.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://gecelca.uat.netrum-tech.com/api/n1)">
+                  </a> <!-- testPostpassword(https://gecelca.uat.netrum-tech.com/api/n1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://gecelca.uat.netrum-tech.com/api/n1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://netrum.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://netrum.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://netrum.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://minicivil.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://minicivil.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://minicivil.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://segurosbolivar.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://segurosbolivar.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://segurosbolivar.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://fanalca.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://fanalca.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://fanalca.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://finesa.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://finesa.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://finesa.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://outsourcingbpo.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://outsourcingbpo.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://outsourcingbpo.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://bancounion.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://bancounion.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://bancounion.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://bnpparibas.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://bnpparibas.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://bnpparibas.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://etek.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://etek.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://etek.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://rockman.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://rockman.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://rockman.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://coasmedas.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://coasmedas.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://coasmedas.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://tessolve.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://tessolve.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://tessolve.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostpassword(https://eteklab.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testPostpassword(https://eteklab.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testPostpassword</span>
+                  <span class="parameters">(https://eteklab.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://fanalca.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://fanalca.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://fanalca.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://etek.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://etek.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://etek.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://coasmedas.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://coasmedas.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://coasmedas.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://bancounion.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://bancounion.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://bancounion.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://coltefinanciera.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://coltefinanciera.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://coltefinanciera.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://eteklab.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://eteklab.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://eteklab.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://netrum.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://netrum.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://netrum.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://minicivil.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://minicivil.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://minicivil.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://segurosbolivar.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://segurosbolivar.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://segurosbolivar.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://exotel.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://exotel.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://exotel.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://bnpparibas.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://bnpparibas.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://bnpparibas.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://rockman.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://rockman.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://rockman.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://gentera.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://gentera.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://gentera.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://gecelca.uat.netrum-tech.com/api/n1)">
+                  </a> <!-- testresetpassword(https://gecelca.uat.netrum-tech.com/api/n1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://gecelca.uat.netrum-tech.com/api/n1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://outsourcingbpo.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://outsourcingbpo.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://outsourcingbpo.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://finesa.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://finesa.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://finesa.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://tessolve.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://tessolve.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://tessolve.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testresetpassword(https://riopaila.uat.netrum-tech.com/api/v1)">
+                  </a> <!-- testresetpassword(https://riopaila.uat.netrum-tech.com/api/v1) -->
+                  <span class="method-name">testresetpassword</span>
+                  <span class="parameters">(https://riopaila.uat.netrum-tech.com/api/v1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1882174218\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.UserTests3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testPostpassword')
+data.setCell(0, 2, 'api.test.UserTests3')
+data.setCell(0, 3, 11973);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testPostpassword')
+data.setCell(1, 2, 'api.test.UserTests3')
+data.setCell(1, 3, 5043);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testresetpassword')
+data.setCell(2, 2, 'api.test.UserTests3')
+data.setCell(2, 3, 5039);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPostpassword')
+data.setCell(3, 2, 'api.test.UserTests3')
+data.setCell(3, 3, 4915);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testresetpassword')
+data.setCell(4, 2, 'api.test.UserTests3')
+data.setCell(4, 3, 4913);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testresetpassword')
+data.setCell(5, 2, 'api.test.UserTests3')
+data.setCell(5, 3, 4913);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testPostpassword')
+data.setCell(6, 2, 'api.test.UserTests3')
+data.setCell(6, 3, 4910);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPostpassword')
+data.setCell(7, 2, 'api.test.UserTests3')
+data.setCell(7, 3, 4909);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testresetpassword')
+data.setCell(8, 2, 'api.test.UserTests3')
+data.setCell(8, 3, 4907);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testPostpassword')
+data.setCell(9, 2, 'api.test.UserTests3')
+data.setCell(9, 3, 4896);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testresetpassword')
+data.setCell(10, 2, 'api.test.UserTests3')
+data.setCell(10, 3, 4873);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testPostpassword')
+data.setCell(11, 2, 'api.test.UserTests3')
+data.setCell(11, 3, 4776);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testPostpassword')
+data.setCell(12, 2, 'api.test.UserTests3')
+data.setCell(12, 3, 4710);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testPostpassword')
+data.setCell(13, 2, 'api.test.UserTests3')
+data.setCell(13, 3, 4584);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testresetpassword')
+data.setCell(14, 2, 'api.test.UserTests3')
+data.setCell(14, 3, 4496);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testresetpassword')
+data.setCell(15, 2, 'api.test.UserTests3')
+data.setCell(15, 3, 4398);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testresetpassword')
+data.setCell(16, 2, 'api.test.UserTests3')
+data.setCell(16, 3, 4333);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testresetpassword')
+data.setCell(17, 2, 'api.test.UserTests3')
+data.setCell(17, 3, 4298);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testresetpassword')
+data.setCell(18, 2, 'api.test.UserTests3')
+data.setCell(18, 3, 4298);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testresetpassword')
+data.setCell(19, 2, 'api.test.UserTests3')
+data.setCell(19, 3, 4298);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testPostpassword')
+data.setCell(20, 2, 'api.test.UserTests3')
+data.setCell(20, 3, 4296);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testPostpassword')
+data.setCell(21, 2, 'api.test.UserTests3')
+data.setCell(21, 3, 4296);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testresetpassword')
+data.setCell(22, 2, 'api.test.UserTests3')
+data.setCell(22, 3, 4296);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testPostpassword')
+data.setCell(23, 2, 'api.test.UserTests3')
+data.setCell(23, 3, 4295);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testPostpassword')
+data.setCell(24, 2, 'api.test.UserTests3')
+data.setCell(24, 3, 4294);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testresetpassword')
+data.setCell(25, 2, 'api.test.UserTests3')
+data.setCell(25, 3, 4294);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testPostpassword')
+data.setCell(26, 2, 'api.test.UserTests3')
+data.setCell(26, 3, 4287);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testPostpassword')
+data.setCell(27, 2, 'api.test.UserTests3')
+data.setCell(27, 3, 4246);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testresetpassword')
+data.setCell(28, 2, 'api.test.UserTests3')
+data.setCell(28, 3, 4219);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testresetpassword')
+data.setCell(29, 2, 'api.test.UserTests3')
+data.setCell(29, 3, 4172);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testPostpassword')
+data.setCell(30, 2, 'api.test.UserTests3')
+data.setCell(30, 3, 4009);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testPostpassword')
+data.setCell(31, 2, 'api.test.UserTests3')
+data.setCell(31, 3, 3720);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testresetpassword')
+data.setCell(32, 2, 'api.test.UserTests3')
+data.setCell(32, 3, 3694);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testPostpassword')
+data.setCell(33, 2, 'api.test.UserTests3')
+data.setCell(33, 3, 3675);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testresetpassword')
+data.setCell(34, 2, 'api.test.UserTests3')
+data.setCell(34, 3, 3585);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testresetpassword')
+data.setCell(35, 2, 'api.test.UserTests3')
+data.setCell(35, 3, 3567);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.UserTests3</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://exotel.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://outsourcingbpo.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">12707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://etek.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">17421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://eteklab.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">22340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://riopaila.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">26069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://rockman.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">30320 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://netrum.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">34333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://bancounion.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">38938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://coasmedas.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">42622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://gecelca.uat.netrum-tech.com/api/n1)</span>
+                <span class="method-start">47535 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://segurosbolivar.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">51824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://fanalca.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">56123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://finesa.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">60424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://coltefinanciera.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">64727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://bnpparibas.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">69507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://gentera.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">74554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://tessolve.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">79472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostpassword(https://minicivil.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">83771 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://exotel.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">88686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://outsourcingbpo.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">92984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://etek.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">97286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://eteklab.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">102165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://riopaila.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">106500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://rockman.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">110801 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://netrum.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">115716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://bancounion.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">120017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://coasmedas.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">124936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://gecelca.uat.netrum-tech.com/api/n1)</span>
+                <span class="method-start">129156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://segurosbolivar.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">132724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://fanalca.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">137223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://finesa.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">142133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://coltefinanciera.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">146308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://bnpparibas.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">151350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://gentera.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">154936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://tessolve.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">159335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testresetpassword(https://minicivil.uat.netrum-tech.com/api/v1)</span>
+                <span class="method-start">163630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">167337 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

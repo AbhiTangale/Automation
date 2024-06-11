@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="api.test.UserTests2">
+        <methods>
+          <include name="testupdate_entity_status" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="testsecurity_pulse_record_delete" invocation-numbers="0"/>
+          <include name="testupdate_risk_journey" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="testrisk_screen_details" invocation-numbers="0"/>
+          <include name="testpreference_fetch" invocation-numbers="0"/>
+          <include name="testuser_matrix1" invocation-numbers="0"/>
+          <include name="testreset_layout" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- api.test.UserTests2 -->
+      <class name="api.test.UserTests3">
+        <methods>
+          <include name="testAdd_predefined_data" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="testUpdatepassword" invocation-numbers="0"/>
+          <include name="testadd_rule" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- api.test.UserTests3 -->
+      <class name="api.test.UserTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testentity_predefined_function" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- api.test.UserTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
